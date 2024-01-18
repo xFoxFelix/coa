@@ -1,0 +1,20 @@
+Package: coa
+Title: Compound Assignment Operators
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Felix", family = "Fox", role = c("aut", "cre"), email = "meinebestimmtechteEmail@mail.de")
+  )
+Description: The package provides compound assignment operators
+License: MIT + file LICENSE
+URL: https://github.com/xFoxFelix/coa
+BugReports: https://github.com/xFoxFelix/coa/issues
+ByteCompile: true
+Encoding: UTF-8
+Config/testthat/edition: 3
+Config/testthat/parallel: true
+Roxygen: list(markdown = TRUE)
+Imports:
+  checkmate
+Suggests:
+  testthat
+RoxygenNote: 7.2.2
